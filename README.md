@@ -2,6 +2,9 @@
 A Machine Learning Engineer that passionate about AI and Data Science 
 
 ## Education 
+- Mingchi University of Technology              M.Sc (2021-2023)
+- Sun Moon University                           B.Sc (2017-2019)
+- Universitas International Batam               B.Sc (2014-2019)
 
 ## Profesional Experience
 
