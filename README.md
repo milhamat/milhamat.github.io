@@ -10,7 +10,7 @@ A Machine Learning Engineer that passionate about AI and Data Science
 **National Taipei University of Business (Research Assistant)**
   - Utilize Python, and R to implement Data Visualization and make Dashboard app based on student’s dataset.
   - Using Python to do the extensive research about applying defect detection using few-shot learning under small class condition, by using image enhancement for data augmentation.
-  - 
+
 **Ming Chi University of Technology (Research Assistant)**
   - Utilize Python, R and Matlab to implement supervised and unsupervised model.
   - Utilize Python to classify the defect detection on image steel surface using several model and make comparison base on the result performance, comparison of fault detection using dimensional reduction, tree base learning and statistic approach, applied few-shot learning for defect classification in steel surface defect detection.
