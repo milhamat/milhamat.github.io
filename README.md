@@ -2,12 +2,10 @@
 A Machine Learning Engineer that passionate about AI and Data Science 
 
 ## Education 
-<p align="center">
-- Mingchi University of Technology (2021-2023) | M.Sc, Mechanical and Mechanical Electronic
+
+<p align="justify">- Mingchi University of Technology (2021-2023) | M.Sc, Mechanical and Mechanical Electronic</p>
 - Sun Moon University (2017-2019) | B.Sc, Electronic Engineering
 - Universitas International Batam (2014-2019) | B.Sc, Electrical Engineering
-  
-</p>
 
 ## Profesional Experience
 
