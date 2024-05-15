@@ -1,5 +1,3 @@
-# Machine Learning and Data Science
-
 ## About me
 A Machine Learning Engineer that passionate about AI and Data Science 
 
