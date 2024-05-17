@@ -22,8 +22,10 @@ A Machine Learning Engineer that passionate about AI and Data Science
 ## Skills
 - **Programming Laguages:** Python, R, Matlab, C, C++, Java, Swift(iOS), SQL, HTML, CSS, JavaScript
 - **Big Data & Machine Learning:** Python(eg, Scikit-learn, Numpy, Pandas, Matplotlib, Plotly, Seaborn, Tensorflow, Keras, Pytorch).
+- **Another Data tools:** Spyder, Orange Data mining, Tableau public, SPSS.
 - **Data Science & Miscellaneous Technology:** A/B testing, Data science pipeline (cleansing, wrangling, visualization, modelling, interpretation) Statistics, Time Series, Experimental Design, Hypothesis testing, Image processing, Fault detection, Dashboard App, OOP, Excel, Git, Linux(shell).
 - **Soft Skill:** Research, Collaboration, Ideation, Problem Solving, Creativity, Critical Thinking.
+- **Language:** Indonesia (Native), English (Professional), Korea (Adequately).
 
 ## Projects
 - Campus Data Dashboard App 
