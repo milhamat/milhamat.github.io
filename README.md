@@ -28,16 +28,16 @@ A Machine Learning Engineer that passionate about AI and Data Science
 ## Projects
 - Campus Data Dashboard App 
   (National Taipei University of Business)
-	- Using Shiny (R) and Dash (Python) to make a web data dashboard for National Taipei University of Business student alumni dataset.
+  - Using Shiny (R) and Dash (Python) to make a web data dashboard for National Taipei University of Business student alumni dataset.
 - Enhancing Data Through Augmentation to Address Few-class Scenarios of Few-shot Learning
   (Project article-National Taipei University of Business)
-        - Another approach of tackling the few-class problem by using image processing method, such as CLAHE, binary inverse to enrich the classes, we also set 
-          several dataset conditions that could maximize the models performance, through the experiments
+  - Another approach of tackling the few-class problem by using image processing method, such as CLAHE, binary inverse to enrich the classes, we also set 
+    several dataset conditions that could maximize the models performance, through the experiments
 - Steel Surface Defect Classification using Few-Shot Learning
   (Master Thesis-Ming Chi University of Technology)
-        - Employing Few-shot learning (Siamese, matching, prototypical network) to classify the defect type from NEU (steel surface defect) image dataset, 
-          however due to the few-class problem we use k-means clustering to enrich the dataset, and the experiments show that there is an improve accuracy if we 
-          compared to the original dataset.
+  - Employing Few-shot learning (Siamese, matching, prototypical network) to classify the defect type from NEU (steel surface defect) image dataset, 
+    however due to the few-class problem we use k-means clustering to enrich the dataset, and the experiments show that there is an improve accuracy if we 
+    compared to the original dataset.
 
 you can find me :
 [1] https://github.com/milhamat
