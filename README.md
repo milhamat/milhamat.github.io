@@ -40,6 +40,6 @@ A Machine Learning Engineer that passionate about AI and Data Science
     compared to the original dataset.
 
 you can find me :
-[1] https://github.com/milhamat
-[2] linkedin.com/in/milhamat
-[3] https://www.kaggle.com/ilhamatt
+- https://github.com/milhamat
+- linkedin.com/in/milhamat
+- https://www.kaggle.com/ilhamatt
