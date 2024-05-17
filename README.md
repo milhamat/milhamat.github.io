@@ -7,15 +7,17 @@ A Machine Learning Engineer that passionate about AI and Data Science
 - <p align="justify">B.Sc, Electrical Engineering, Universitas International Batam (2014-2019)</p>
 
 ## Profesional Experience
-**National Taipei University of Business (Research Assistant)**
-  - Utilize Python, and R to implement Data Visualization and make Dashboard app based on student’s dataset.
+- **National Taipei University of Business (Research Assistant)**
+  - Utilize Python (Dash), and R (Shiny) to implement Data Visualization and make Dashboard app based on student’s dataset.
+  - Assist, Make, Test, and Fix the code related to the Machine learning and Data Science Topics, such as Data Visualization, Data Cleaning, Feature Selection, Classification, email disidentification Algorithm, Generative Model (GAN, Diffusion).
   - Using Python to do the extensive research about applying defect detection using few-shot learning under small class condition, by using image enhancement for data augmentation.
 
-**Ming Chi University of Technology (Research Assistant)**
-  - Utilize Python, R and Matlab to implement supervised and unsupervised model.
-  - Utilize Python to classify the defect detection on image steel surface using several model and make comparison base on the result performance, comparison of fault detection using dimensional reduction, tree base learning and statistic approach, applied few-shot learning for defect classification in steel surface defect detection.
+- **Ming Chi University of Technology (Research Assistant)**
+  - Utilize Python, R, and Matlab to implement supervised and unsupervised models.
+  - Assist, Make, Test, and Fix the code related to the Machine learning and Data Science Topics, such as Data Visualization, Data Cleaning, Feature Selection, Classification, Regression, MSPC (Multivariate Statistical Process Control), Dimensional reduction, Tree base learning, NLP(Natural Language Processing).
+  - Utilize Python to classify the defect detection on image steel surface using several Few-shot learning models and make comparisons and parameter setting based on the result performance.
     
-**Apple Developer Academy (iOS Developer)**
+- **Apple Developer Academy (iOS Developer)**
   - Learning the iOS software developing environment, from making an idea, designing the UI, Testing, and solving a problem with an app solution.
   - Make several project Apps that release on the App Store
 
