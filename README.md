@@ -41,5 +41,5 @@ A Machine Learning Engineer that passionate about AI and Data Science
 
 you can find me :
 - https://github.com/milhamat
-- linkedin.com/in/milhamat
+- [linkedin.com/in/milhamat](https://www.linkedin.com/in/milhamat/)
 - https://www.kaggle.com/ilhamatt
