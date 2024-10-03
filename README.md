@@ -3,10 +3,12 @@ A Machine Learning Engineer that passionate about AI and Data Science
 
 my [CV](https://drive.google.com/file/d/1HbUVZu8Agi_QL-bRF8U4kR7984SmCYOM/view?usp=sharing)
 
-## Education 
-- <p align="justify">M.Sc, Mechanical and Mechanical Electronic, Ming Chi University of Technology (2021-2023)</p>
-- <p align="justify">B.Sc, Electronic Engineering, Sun Moon University (2017-2019)</p>
-- <p align="justify">B.Sc, Electrical Engineering, Universitas International Batam (2014-2019)</p>
+you can find me :
+- [github](https://github.com/milhamat)
+- [linkedin](https://www.linkedin.com/in/milhamat/)
+- [kaggle](https://www.kaggle.com/ilhamatt)
+- [huggingface](https://huggingface.co/milhamat)
+- [medium](https://medium.com/@milham47)
 
 ## Profesional Experience
 - **National Taipei University of Business (Research Assistant)**
@@ -45,9 +47,9 @@ my [CV](https://drive.google.com/file/d/1HbUVZu8Agi_QL-bRF8U4kR7984SmCYOM/view?u
     however due to the few-class problem we use k-means clustering to enrich the dataset, and the experiments show that there is an improve accuracy if we 
     compared to the original dataset.
 
-you can find me :
-- [github](https://github.com/milhamat)
-- [linkedin](https://www.linkedin.com/in/milhamat/)
-- [kaggle](https://www.kaggle.com/ilhamatt)
-- [huggingface](https://huggingface.co/milhamat)
-- [medium](https://medium.com/@milham47)
+## Education 
+- <p align="justify">M.Sc, Mechanical and Mechanical Electronic, Ming Chi University of Technology (2021-2023)</p>
+- <p align="justify">B.Sc, Electronic Engineering, Sun Moon University (2017-2019)</p>
+- <p align="justify">B.Sc, Electrical Engineering, Universitas International Batam (2014-2019)</p>
+
+
