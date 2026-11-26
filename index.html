@@ -1,153 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home - milhamat</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Ilham Ashiddiq Tresnawan — ML Researcher, Developer & Lecturer</title>
+  <meta name="description" content="Portfolio of Muhammad Ilham Ashiddiq Tresnawan (milhamat): lecturer in IoT & Machine Learning at Universitas Internasional Batam, former research assistant in Taiwan, building data-driven solutions in ML, IoT and software engineering.">
+  <meta name="author" content="Muhammad Ilham Ashiddiq Tresnawan">
+  <meta name="theme-color" content="#020617">
+  <link rel="canonical" href="https://milhamat.github.io/">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Social previews (LinkedIn, WhatsApp, X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milhamat.github.io/">
+  <meta property="og:title" content="Muhammad Ilham Ashiddiq Tresnawan — Researcher & Developer">
+  <meta property="og:description" content="Translating ideas into practical solutions — Machine Learning, IoT and Software Engineering.">
+  <meta property="og:image" content="https://milhamat.github.io/assets/img/profile.jpg">
+  <meta name="twitter:card" content="summary">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="assets/css/site.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Ilham Ashiddiq Tresnawan",
+    "alternateName": "milhamat",
+    "url": "https://milhamat.github.io/",
+    "image": "https://milhamat.github.io/assets/img/profile.jpg",
+    "jobTitle": "Lecturer (IoT & Machine Learning)",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "Universitas Internasional Batam" },
+    "alumniOf": ["Ming Chi University of Technology", "Universitas Internasional Batam"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Batam", "addressCountry": "ID" },
+    "sameAs": ["https://github.com/milhamat", "https://www.linkedin.com/in/milhamat/", "https://www.kaggle.com/ilhamatt", "https://huggingface.co/milhamat", "https://medium.com/@milham47"]
+  }
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
-<body class="index-page">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" id="progress" aria-hidden="true"></div>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">milhamat</h1>
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand__mark">MI</span>
+        <span class="brand__name">MILHAMAT</span>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <!-- <li><a href="services.html">Services</a></li> -->
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <!-- <li><a href="contact.html">Contact</a></li> -->
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      <nav class="nav__links" aria-label="Primary">
+        <ul id="navLinks"></ul>
       </nav>
 
+      <div class="nav__actions">
+        <div class="nav__socials" id="navSocials"></div>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="id">ID</button>
+        </div>
+        <a class="nav__cv" id="navCv" href="#" download><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg><span data-i18n="nav.cv">CV</span></a>
+        <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menu">
+          <svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" fill-rule="evenodd"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <ul id="mobileLinks"></ul>
+      <div class="mobile-menu__foot">
+        <a class="btn btn--primary btn--sm" id="mobileCv" href="#" download><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg><span data-i18n="hero.cv"></span></a>
+      </div>
     </div>
   </header>
 
-  <main class="main">
+  <main id="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/block.jpg" alt="" data-aos="fade-in">
-
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Muhammad Ilham Ashiddiq</h2>
-        <!-- <p>I'm <span class="typed" data-typed-items="Machine Learning Engineer, Artificial Inteligent Engineer, Data Science,">Photographer</span><span class="typed-cursor typed-cursor--blink"></span></p> -->
-        <div class="social-links">
-          <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
-          <!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
-          <a href="https://github.com/milhamat"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/milhamat/"><i class="bi bi-linkedin"></i></a>
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="eyebrow eyebrow--live reveal"><span class="ping" aria-hidden="true"></span><span data-i18n="hero.tag"></span></div>
+        <h1 class="hero__title reveal">
+          <span data-i18n="hero.title"></span><br>
+          <span class="accent" data-i18n="hero.accent"></span>.
+        </h1>
+        <p class="hero__name reveal"><strong id="heroName"></strong> <span class="sep">—</span> <span data-i18n="hero.roles"></span></p>
+        <p class="hero__lead reveal" data-i18n="hero.subtitle"></p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="#projects" data-i18n="hero.cta"></a>
+          <a class="btn btn--outline" id="heroCv" href="#" download><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg><span data-i18n="hero.cv"></span></a>
+          <div class="socials" id="heroSocials"></div>
         </div>
       </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span data-i18n="hero.scroll"></span><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" fill-rule="evenodd"/></svg></a>
+    </section>
 
-    </section><!-- /Hero Section -->
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section section--bordered">
+      <div class="container about">
+        <div class="about__text">
+          <p class="eyebrow reveal" data-i18n="about.eyebrow"></p>
+          <h2 class="h2 reveal" data-i18n="about.title"></h2>
+          <p class="about__summary reveal" data-i18n="about.summary"></p>
+          <div class="about__cards" id="aboutCards"></div>
+        </div>
+        <div class="about__photo reveal">
+          <div class="photo">
+            <div class="photo__back" aria-hidden="true"></div>
+            <div class="photo__frame">
+              <img id="profilePhoto" src="assets/img/profile.webp" alt="Portrait of Muhammad Ilham Ashiddiq Tresnawan" width="760" height="1013" loading="lazy">
+            </div>
+            <div class="photo__tag">
+              <span class="photo__name" id="photoName"></span>
+              <span class="photo__loc"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg><span id="photoLoc"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section section--tint">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <p class="eyebrow reveal" data-i18n="skills.eyebrow"></p>
+          <h2 class="h2 reveal" data-i18n="skills.title"></h2>
+        </div>
+        <div class="skills" id="skillsGrid"></div>
+        <div class="skills__extra reveal" id="skillsExtra"></div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE + EDUCATION ===================== -->
+    <section id="experience" class="section">
+      <div class="container container--narrow">
+        <p class="eyebrow reveal" data-i18n="experience.eyebrow"></p>
+        <h2 class="h2 reveal" data-i18n="experience.title"></h2>
+        <ol class="timeline" id="timeline"></ol>
+
+        <h3 class="h3 edu__title reveal" data-i18n="experience.education"></h3>
+        <div class="edu" id="education"></div>
+      </div>
+    </section>
+
+    <!-- ===================== LIGHT ZONE: PROJECTS & GUIDANCE ===================== -->
+    <div class="light">
+      <section id="projects" class="section section--projects">
+        <div class="container">
+          <div class="section__head">
+            <p class="eyebrow eyebrow--dark reveal" data-i18n="projects.eyebrow"></p>
+            <h2 class="h2 h2--xl reveal" data-i18n="projects.title"></h2>
+            <p class="muted muted--wide reveal" data-i18n="projects.subtitle"></p>
+            <nav class="jump reveal" aria-label="Projects & Guidance">
+              <a href="#projects-mine" class="jump__item"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/></svg><span data-i18n="projects.mine"></span><b id="countMine"></b></a>
+              <a href="#guidance" class="jump__item" id="jumpGuidance"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"/><path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"/></svg><span data-i18n="guidance.eyebrow"></span><b id="countGuidance"></b></a>
+            </nav>
+          </div>
+
+          <div class="subhead" id="projects-mine">
+            <h3 class="h3 h3--dark reveal" data-i18n="projects.mine"></h3>
+            <div class="filters reveal" id="projectFilters" role="tablist" aria-label="Project categories"></div>
+          </div>
+          <div class="projects" id="projectGrid"></div>
+          <div class="center projects__actions">
+            <button class="btn btn--dark" type="button" id="moreProjects"></button>
+            <a class="btn btn--ghost-dark" id="githubMore" href="https://github.com/milhamat?tab=repositories" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg><span data-i18n="projects.github"></span><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" fill-rule="evenodd"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" fill-rule="evenodd"/></svg></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="guidance" class="section section--guidance" hidden>
+        <div class="container">
+          <div class="subhead subhead--guidance">
+            <div>
+              <p class="eyebrow eyebrow--dark reveal" data-i18n="guidance.eyebrow"></p>
+              <h3 class="h2 reveal" data-i18n="guidance.title"></h3>
+              <p class="muted reveal" data-i18n="guidance.subtitle"></p>
+            </div>
+            <div class="filters reveal" id="cohortFilters" aria-label="Cohorts"></div>
+          </div>
+          <div id="guidanceGroups"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="contact__left">
+            <h2 class="contact__title" data-i18n="contact.title"></h2>
+            <a class="contact__mail" id="contactMail" href="#"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg><span id="contactMailText"></span></a>
+            <a class="contact__cv" id="contactCv" href="#" download><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/><path d="M4.603 14.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.7 11.7 0 0 0-1.997.406 11.3 11.3 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.245.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 7.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"/></svg><span data-i18n="contact.cv"></span></a>
+          </div>
+          <div class="contact__right">
+            <blockquote class="contact__quote">“<span data-i18n="contact.quote"></span>”</blockquote>
+            <div class="contact__sign"><span class="bar" aria-hidden="true"></span><span id="contactName"></span></div>
+            <span class="pill" data-i18n="contact.status"></span>
+            <div class="socials socials--dark" id="contactSocials"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
     <div class="container">
-      <!-- <h4 class="sitename">milhamat</h4> -->
-      <!-- <p>You can reach me here</p> -->
-      <div class="social-links d-flex justify-content-center">
-        <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
-        <!-- <a href=""><i class="bi bi-facebook"></i></a> -->
-        <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
-        <!-- <a href="https://github.com/milhamat"><i class="bi bi-github"></i></a> -->
-        <!-- <a href="https://www.linkedin.com/in/milhamat/"><i class="bi bi-linkedin"></i></a> -->
+      <div class="footer__top">
+        <a class="brand brand--sm" href="#home"><span class="brand__mark">MI</span><span class="brand__name">MILHAMAT</span></a>
+        <ul class="footer__links" id="footerLinks"></ul>
       </div>
-      <!-- <div class="container"> -->
-        <!-- <div class="copyright"> -->
-          <!-- <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span> -->
-        <!-- </div> -->
-        <!-- <div class="credits"> -->
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        <!-- </div> -->
-      <!-- </div> -->
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> <span id="footerName"></span></p>
+        <p><span id="footerLoc"></span> | <span data-i18n="footer.roles"></span></p>
+      </div>
     </div>
   </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a class="to-top" id="toTop" href="#home" aria-label="Back to top"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" fill-rule="evenodd"/></svg></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  <!-- ===================== PROJECT DIALOG ===================== -->
+  <dialog class="modal" id="projectDialog" aria-labelledby="pdTitle">
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button>
+      <div class="pd__media" id="pdMedia"></div>
+      <div class="pd__body">
+        <div class="pd__badges" id="pdBadges"></div>
+        <h3 class="pd__title" id="pdTitle"></h3>
+        <dl class="pd__meta" id="pdMeta"></dl>
+        <ul class="pd__points" id="pdPoints"></ul>
+        <div class="pd__tech" id="pdTech"></div>
+        <div class="pd__links" id="pdLinks"></div>
+      </div>
+    </div>
+  </dialog>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- ===================== DOCUMENT (PDF) VIEWER ===================== -->
+  <dialog class="modal modal--doc" id="docDialog" aria-labelledby="dvTitle">
+    <div class="modal__panel">
+      <div class="dv__bar">
+        <div class="dv__info">
+          <h3 class="dv__title" id="dvTitle"></h3>
+          <p class="dv__sub" id="dvSub"></p>
+        </div>
+        <div class="dv__actions">
+          <span class="dv__page" id="dvPage"></span>
+          <button type="button" class="icon-btn" id="dvZoomOut"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" fill-rule="evenodd"/><path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/><path d="M3 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5" fill-rule="evenodd"/></svg></button>
+          <span class="dv__zoom" id="dvZoom">100%</span>
+          <button type="button" class="icon-btn" id="dvZoomIn"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" fill-rule="evenodd"/><path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/><path d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" fill-rule="evenodd"/></svg></button>
+          <a class="icon-btn" id="dvOpen" href="#" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" fill-rule="evenodd"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" fill-rule="evenodd"/></svg></a>
+          <a class="icon-btn" id="dvDownload" href="#" download><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg></a>
+          <button type="button" class="icon-btn" data-close aria-label="Close"><svg class="i" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button>
+        </div>
+      </div>
+      <div class="dv__stage" id="dvStage"></div>
+    </div>
+  </dialog>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <noscript>
+    <div class="noscript">
+      <h1>Muhammad Ilham Ashiddiq Tresnawan</h1>
+      <p>Lecturer · ML Researcher · Developer — Batam, Indonesia</p>
+      <p><a href="mailto:M477ashiddiq@gmail.com">M477ashiddiq@gmail.com</a> ·
+        <a href="https://www.linkedin.com/in/milhamat/">LinkedIn</a> ·
+        <a href="https://github.com/milhamat">GitHub</a> ·
+        <a href="assets/docs/CV-Muhammad-Ilham-Ashiddiq-Tresnawan.pdf">CV (PDF)</a></p>
+    </div>
+  </noscript>
 
+  <script src="assets/js/data.js"></script>
+  <script src="assets/guidance/guidance.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
-
 </html>
